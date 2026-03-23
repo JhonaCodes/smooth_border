@@ -1,6 +1,6 @@
 name: smooth_border
 description: "iOS-style continuous corner radius (squircle) for Flutter. A ShapeBorder that works with any widget — Container, Card, Material, ClipPath, and more."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/JhonaCodes/smooth_border.git
 repository: https://github.com/JhonaCodes/smooth_border
 
@@ -16,3 +16,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  alchemist: ^0.13.0

@@ -1,5 +1,16 @@
 # smooth_border
 
+## 1.0.1
+
+### Added
+- **Golden tests** — 6 visual test suites with side-by-side comparisons:
+  - Standard vs smooth corners at radius 8, 16, 24
+  - Smooth radius range (0–32)
+  - Smoothing intensity levels (0.0, 0.3, 0.6, 1.0)
+  - Border styles (none, thin, thick, colored)
+  - Aspect ratios (square, wide, tall, small)
+  - ClipPath with SmoothRectangleClipper
+
 ## 1.0.0
 
 ### Initial Release
