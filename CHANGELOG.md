@@ -1,5 +1,8 @@
 # smooth_border
 
+## 1.0.2
+- Fix README version reference.
+
 ## 1.0.1
 
 ### Added

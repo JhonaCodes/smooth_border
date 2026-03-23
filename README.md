@@ -20,7 +20,7 @@ Unlike standard `BorderRadius.circular()` which uses circular arcs with an abrup
 
 ```yaml
 dependencies:
-  smooth_border: ^1.0.1
+  smooth_border: ^1.0.2
 ```
 
 ```dart
