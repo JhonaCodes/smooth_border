@@ -1,5 +1,8 @@
 # smooth_border
 
+## 1.0.3
+- Fix golden images in pub.dev — use absolute GitHub raw URLs.
+
 ## 1.0.2
 - Fix README version reference.
 

@@ -20,7 +20,7 @@ Unlike standard `BorderRadius.circular()` which uses circular arcs with an abrup
 
 ```yaml
 dependencies:
-  smooth_border: ^1.0.2
+  smooth_border: ^1.0.3
 ```
 
 ```dart
@@ -123,42 +123,42 @@ Visual reference for each feature, generated from golden tests.
 ### Standard vs Smooth (radius 8)
 Direct comparison showing the subtle difference at small radius. The smooth variant has a gradual shoulder transition instead of an abrupt circular arc.
 
-![Comparison R8](test/golden_test/goldens/macos/golden_comparison_r8.png)
+![Comparison R8](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_comparison_r8.png)
 
 ### Standard vs Smooth (radius 16)
 At medium radius the difference becomes clearly visible — the smooth corner starts curving earlier and has a wider, softer shoulder.
 
-![Comparison R16](test/golden_test/goldens/macos/golden_comparison_r16.png)
+![Comparison R16](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_comparison_r16.png)
 
 ### Standard vs Smooth (radius 24)
 At large radius the squircle shape is very pronounced compared to the standard circular arc.
 
-![Comparison R24](test/golden_test/goldens/macos/golden_comparison_r24.png)
+![Comparison R24](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_comparison_r24.png)
 
 ### Radius Range (0–32)
 How the smooth corner shape changes as radius increases from 0 (sharp) to 32 (pill-like).
 
-![Radius Range](test/golden_test/goldens/macos/golden_radius_range.png)
+![Radius Range](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_radius_range.png)
 
 ### Smoothing Levels (0.0 → 1.0)
 The `smoothing` parameter at a fixed radius of 20. At 0.0 it matches standard `BorderRadius.circular()`. At 0.6 (iOS default) the shoulder is visible. At 1.0 the curve is maximally smooth.
 
-![Smoothing Levels](test/golden_test/goldens/macos/golden_smoothing_levels.png)
+![Smoothing Levels](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_smoothing_levels.png)
 
 ### Border Styles
 `SmoothRectangleBorder` with different `BorderSide` configurations: no border, thin, thick (3px), and colored.
 
-![Border Styles](test/golden_test/goldens/macos/golden_border_styles.png)
+![Border Styles](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_border_styles.png)
 
 ### Aspect Ratios
 Verifies all 4 corners stay symmetric regardless of shape: square, wide rectangle, tall rectangle, and small box.
 
-![Shapes](test/golden_test/goldens/macos/golden_shapes.png)
+![Shapes](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_shapes.png)
 
 ### ClipPath
 `SmoothRectangleClipper` clipping containers at different radius and smoothing values.
 
-![Clip](test/golden_test/goldens/macos/golden_clip.png)
+![Clip](https://raw.githubusercontent.com/JhonaCodes/smooth_border/main/test/golden_test/goldens/macos/golden_clip.png)
 
 ## How it works
 
